@@ -1,0 +1,15 @@
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.csproj.AssemblyReference.cache
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.AssemblyInfoInputs.cache
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.AssemblyInfo.cs
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.csproj.CoreCompileInputs.cache
+C:\Users\quise\csharpPractice\Gary\bin\Debug\net7.0\Gary.exe
+C:\Users\quise\csharpPractice\Gary\bin\Debug\net7.0\Gary.deps.json
+C:\Users\quise\csharpPractice\Gary\bin\Debug\net7.0\Gary.runtimeconfig.json
+C:\Users\quise\csharpPractice\Gary\bin\Debug\net7.0\Gary.dll
+C:\Users\quise\csharpPractice\Gary\bin\Debug\net7.0\Gary.pdb
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.dll
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\refint\Gary.dll
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.pdb
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\Gary.genruntimeconfig.cache
+C:\Users\quise\csharpPractice\Gary\obj\Debug\net7.0\ref\Gary.dll
