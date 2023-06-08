@@ -2,13 +2,23 @@ namespace Garage
 {
    
 //    : represents the inheritence method
-    public class Tesla : Vehicle 
+    public class Tesla : Vehicle, IElectric
     {
-        public double BatteryKWh { get; set; }
+        public double BatteryKWh { get; set; } = 100;
 
         public void ChargeBattery()
         {
-            // method definition omitted
+            double difference = BatteryKWh - CurrentChargePercentage;
+            double charge = CurrentChargePercentage + difference;
+            Console.WriteLine($"You need a little more fuel {difference}. Let's fill up!");
+        }
+
+    public double CurrentChargePercentage{get; set;} = 49;
+
+    public void FullCharge(){
+            double difference = BatteryKWh - CurrentChargePercentage;
+            double charge = CurrentChargePercentage + difference;
+           Console.WriteLine($"{charge}");
         }
     public override void Drive(){
     Console.WriteLine("The tangerine Tesla goes wsowowowowowowowoowowowowowowo");

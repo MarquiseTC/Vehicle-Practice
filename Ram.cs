@@ -1,13 +1,25 @@
 namespace Garage
 {
-    public class Ram : Vehicle // Gas powered truck
+    public class Ram : Vehicle, IGas
     {
-        public double FuelCapacity { get; set; }
+        public double FuelCapacity { get; set; } = 100;
         
         public void RefuelTank()
         {
-            // method definition omitted
+            
+            double difference = FuelCapacity - CurrentTankPercentage;
+            double refuel = CurrentTankPercentage + difference;
+            Console.WriteLine($"You need a little more fuel {difference}. Let's fill up!");
         }
+
+        public double CurrentTankPercentage {get; set;} = 49;
+
+        public void FullTank(){
+            double difference = FuelCapacity - CurrentTankPercentage;
+            double refuel = CurrentTankPercentage + difference;
+           Console.WriteLine($"{refuel}");
+        }
+        
         public override void Drive(){
         Console.WriteLine("The midnightblack Ram goes kuppowowowowowo");
    }
